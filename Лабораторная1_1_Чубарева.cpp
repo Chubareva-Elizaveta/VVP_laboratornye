@@ -1,14 +1,13 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Russian");
 	int a, b, S, P;
 	cin >> a;
 	cin >> b;
 	S = a * b;
 	P = 2 * (a + b);
-	cout << "???????? ??????? - " << S << endl;
-	cout << "???????? ????????? - " << P << endl;
+	cout << "Area value - " << S << endl;
+	cout << "Perimeter value - " << P << endl;
 	return 0;
 }

@@ -1,12 +1,11 @@
-#include <iostream> 
+﻿#include <iostream> 
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Russian");
 	float d, L;
 	cin >> d;
 	float pi = 3.14;
 	L = d * pi;
-	cout << "???????? ????? ?????????? - " << L << endl;
+	cout << "Circumference value - " << L << endl;
 	return 0;
 }
